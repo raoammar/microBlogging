@@ -1,0 +1,56 @@
+body{
+background: white;
+
+}
+section{			
+background: white;
+padding-right: 20px;
+padding-left: 20px;
+font-size:15px;
+/*border-radius: 15px;*/
+color: black; 
+overflow: hidden;
+float: fixed;
+}
+#header						/*Header style sheet*/
+{
+background: #d0e4fe;
+color:black;
+/*border-radius: 10px;*/
+font-family:"Arial";
+font-size:30px;
+text-align:center;
+
+}
+#footer						/*footer style sheet*/
+{
+background: #d0e4fe;
+color:black;
+border-radius: 10px;
+text-align:center;
+font-size:10pt;
+}
+
+h1								/*Heading H1 style sheet*/
+{
+color:black;
+text-align:left;
+font-size:20px;
+font-family:"Calibri";
+}
+h3								/*Heading H3 style sheet*/
+{
+color:black;
+text-align:right;
+font-size:10px;
+font-family:"Arial";
+}
+h5						/*Heading H3 style sheet*/
+{
+color:black;
+text-align:center;
+font-size:40px;
+font-family:"Arial";
+}
+
+

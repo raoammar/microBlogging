@@ -1,0 +1,10 @@
+<h1>Blog</h1>
+<p><%= link_to "Register as a new user",:controller=>"users", :action =>"register" %></p>
+<p><h1><%= link_to "Write a new blog",:controller=>"posts", :action =>"new" %></h1></p>
+<% @posts.each do |post| %>
+<h2><%= link_to post.title,:controller=>"posts", :action => "show" ,:id=>post %></h2>
+<p><%= post.content %></p>
+<hr />
+
+<% end %>
+<p><%= link_to "Archives",:controller=>"posts", :action =>"archive" %></p>
